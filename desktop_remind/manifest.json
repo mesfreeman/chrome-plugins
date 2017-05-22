@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "桌面提醒",
+    "version": "1.0",
+    "description": "桌面提醒示例",
+    "icons": {
+        "16": "images/remind.png",
+        "48": "images/remind.png",
+        "128": "images/remind.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/remind.png",
+            "38": "images/remind.png"
+        },
+        "default_title": "桌面提醒"
+    },
+    "background": {
+        "scripts": ["js/remind.js"]
+    },
+    "permissions": [
+        "notifications"
+    ],
+    "web_accessible_resources": [
+        "images/*.png"
+    ]
+}
