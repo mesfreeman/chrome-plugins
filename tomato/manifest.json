@@ -1,0 +1,19 @@
+{
+    "app": {
+        "background": {
+            "scripts": ["js/background.js"]
+        }
+    },
+    "manifest_version": 2,
+    "name": "蕃茄钟",
+    "version": "1.0",
+    "description": "一个小小的蕃茄钟应用，帮你更加专注做自己的事。",
+    "icons": {
+        "16": "images/tomato.png",
+        "48": "images/tomato.png",
+        "128": "images/tomato.png"
+    },
+    "permissions": [
+        "system.cpu"
+    ]
+}
