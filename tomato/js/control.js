@@ -1,15 +1,18 @@
 // 获取当前窗口
 var current_window = chrome.app.window.current();
+
 var focusing = document.createElement('audio');
+focusing.setAttribute('loop', 'loop');
+focusing.setAttribute('src', '/audio/ocean.m4a');
+
 var completed = document.createElement('audio');
 completed.setAttribute('src', '/audio/completenotification.m4a');
-focusing.setAttribute('src', '/audio/ocean.m4a');
 
 var time = document.getElementById('time');
 var audioTitle = document.getElementById('audioTitle');
 var title = document.getElementById('title');
 var audioFileArray = new Array('ocean.m4a', 'rain.m4a', 'forest.m4a', 'meditation.m4a', 'coffee.m4a','');
-var audioNameArray = new Array('海浪', '雨天', '森林', '冥想', '咖啡', '无声');
+var audioNameArray = new Array('海浪', '雨声', '森林', '冥想', '咖啡厅', '无声');
 var audioTag = 0;          // 音频标识
 var maxtime = 25 * 60 - 1; // 专注时间
 var timerIsOn = 1;         // 计时标识
