@@ -29,7 +29,7 @@ time.onclick = function() {
         if (audioTag != 5) {
             focusing.setAttribute('src', '/audio/' + audioFileArray[audioTag]);
             audioTitle.innerHTML = audioNameArray[audioTag];
-            if (! isPaused || audioTag == 0) {
+            if ((! isPaused || audioTag == 0) && maxtime < 1499) {
                 focusing.play();
             }
         } else {
