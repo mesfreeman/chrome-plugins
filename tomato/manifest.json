@@ -12,8 +12,5 @@
         "16": "images/tomato.png",
         "48": "images/tomato.png",
         "128": "images/tomato.png"
-    },
-    "permissions": [
-        "system.cpu"
-    ]
+    }
 }
