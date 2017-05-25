@@ -67,10 +67,12 @@ function showTime(el) {
         startAndPause.setAttribute('class', 'fa fa-play-circle');
         if (focusIsOn) {
             time.innerHTML = '<span style="font-size: 37px;">喝杯水</span>';
+            audioTitle.innerHTML = '休息';
             maxtime = 5 * 60;
             focusIsOn = 0;
         } else {
             time.innerHTML = '<span style="font-size: 37px;">专注吧</span>';
+            audioTitle.innerHTML = audioNameArray[audioTag];
             maxtime = 25 * 60;
             focusIsOn = 1;
         }
@@ -93,7 +95,7 @@ function startTimer(){
             focusing.play();
         } else {
             title.innerHTML = '蕃茄钟 - 休息';
-            audioTitle.innerHTML = '无声';
+            audioTitle.innerHTML = '休息';
         }
     }
 }
