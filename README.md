@@ -26,6 +26,5 @@
 
 `tomato`是一个桌面应用，模仿IOS版[潮汐](https://itunes.apple.com/cn/app/id1077776989)软件而开发，在手机上我一直很喜欢用潮汐这个软件，界面非常优美，功能齐全，声音也很真实，但在电脑上一直没有找到一款合适的软件，最近学习谷歌插件，正好练手写了这个。功能虽然不全，但还是很好用的，后期慢慢完善它。
 
-![picture](http://oo5edb6t9.bkt.clouddn.com/QQ20180314-180312@2x.jpg)
+![picture](https://pic.dandy.fun/QQ20190310-221217@2x.jpg)
 
-![pictrue](http://oo5edb6t9.bkt.clouddn.com/QQ20180314-180336@2x.jpg)
